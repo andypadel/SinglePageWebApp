@@ -1,0 +1,619 @@
+body {
+	/*
+	background-image: url("https://ih1.redbubble.net/image.360456387.3989/flat,800x800,070,f.u1.jpg");
+	background-size:contain;
+*/
+	height: 100%;
+
+}
+
+html {
+	height: 100%;
+}
+
+#header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: cornflowerblue;
+	border-bottom: solid 2px navy;
+	padding: 5px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: cornflowerblue;
+	border-top: solid 2px navy;
+	padding: 5px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 40px;
+}
+
+.smallNYSLicon {
+	width: 30px
+}
+
+.head-title-div,
+.footer-chat-div,
+.footer-stads-div {
+	color: white;
+	align-self: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.footer-chat-div {
+	align-self: center;
+}
+
+#next-games-div,
+#locationListDiv {
+	background: rgba(76, 175, 80, 0.8);
+	min-height: 100%;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#home-div,
+#locationBodyDiv,
+.chatBody {
+	background: rgba(76, 175, 80, 0.8);
+	padding-top: 50px;
+	height: 100%;
+	padding-bottom: 40px;
+}
+
+.back-div {
+	align-self: flex-start;
+	width: 30px;
+}
+
+.home-img,
+.stad-img,
+.chat-img {
+	width: 30px;
+	margin: 0px 3px;
+}
+
+.homeContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-top: 10px;
+	height: 90%;
+}
+
+.logo {
+	width: 60%;
+	align-self: center;
+	margin: 20px 20px;
+}
+
+.homeBTN {
+	width: 60%;
+	padding: 15px 10px;
+	vertical-align: center;
+	align-self: center;
+	font-size: 17px;
+	margin: 15px 0px;
+	border: solid 2px navy;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-color: cornflowerblue;
+	color: white;
+	border-radius: 10px;
+}
+
+.homeBTN:active {
+	background-color: navy;
+	color: white;
+}
+
+.home-button-div {}
+
+.homeButtonsDiv {
+	display: flex;
+	flex-direction: column;
+}
+
+.infoDiv,
+.teamDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: lightblue;
+	padding: 3px;
+}
+
+.infoDiv {
+	border-bottom: solid 2px navy;
+	padding: 3px 7px;
+}
+
+.matchDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	border: solid 2px navy;
+	margin-bottom: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.gameDiv {
+	display: flex;
+	flex-direction: column;
+	padding: 3px 7px;
+	background-color: white;
+}
+
+.gTDiv {
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+}
+
+.aTDiv {
+	text-align: right;
+}
+
+.infoDiv {
+	font-weight: bold;
+}
+
+.teamDiv {
+	margin-bottom: 20px;
+}
+
+.gTSpan {
+	background-color: darkgrey;
+	padding: 0px 4px;
+}
+
+.mapHeader {
+	display: flex;
+	justify-content: center;
+}
+
+.locAddressSpan {
+	text-align: center;
+}
+
+.nextGamesDiv {
+	margin-top: 10px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.locationDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 5px;
+	margin: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	height: 90%;
+	width: 95%;
+}
+
+.locNameSpan,
+.locAddressSpan {
+	color: white;
+}
+
+.iframeDiv {
+	width: 90%;
+	height: 85%;
+	margin-bottom: 20px;
+	align-self: center;
+}
+
+.iframe {
+	border: solid 1px black;
+	height: 100%;
+	width: 100%;
+	margin: 10px;
+	align-self: center;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picDiv {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.pic {
+	width: 100%;
+	align-self: center;
+	border: solid 1px black;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.picListDiv {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-self: center;
+	padding: 10px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+.instructionsDiv,
+instructionsDiv2 {
+	height: 10%;
+	font-style: italic;
+	font-weight: 500;
+	color: #E1E8FC;
+	font-size: 13px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.locNameDiv {
+	width: 100%;
+	align-self: center;
+	text-align: center;
+	color: white;
+}
+
+.stadPic {
+	display: none;
+}
+
+.signInHeader,
+.googleSignInP {
+	color: white
+}
+
+.signInHeader {
+	text-align: center
+}
+
+.signInButton {
+	width: 90%;
+}
+
+.googleDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.googleSignInP {
+	align-self: center;
+	font-weight: bold;
+}
+
+.googleButton {
+	background-color: #D14836;
+	border: 1px solid #999;
+	border-radius: 4px;
+	padding: 10px;
+	margin: 10px 5px;
+	color: white;
+	font-weight: bold;
+}
+
+.googleButton:hover {
+	background-color: #C53727;
+	background-image: -webkit-linear-gradient(top, #dd4b39, #c53727);
+	background-image: -moz-linear-gradient(top, #dd4b39, #c53727);
+	background-image: -ms-linear-gradient(top, #dd4b39, #c53727);
+	background-image: -o-linear-gradient(top, #dd4b39, #c53727);
+	background-image: linear-gradient(top, #dd4b39, #c53727);
+}
+
+.chatImageDiv {
+	width: 100%;
+	justify-content: center;
+	height: 50%;
+}
+
+.chatImage {
+	width: 95%;
+}
+
+.chatDiv {
+	height: 100%;
+}
+
+.chatContainer {
+	background-color: forestgreen;
+	margin: 10px;
+	border: solid 1.5px darkgray;
+	overflow-y: auto;
+	height: 81%;
+}
+
+.messageInput {
+	width: 78%;
+	align-self: flex-start;
+}
+
+.message {
+	border: solid 1.5px darkgray;
+	margin: 4px;
+	padding: 8px;
+	background-color: aliceblue;
+	border-radius: 10px;
+	width: 80%;
+	overflow-wrap: break-word;
+}
+
+.messageRight {
+	float: right;
+	text-align: right;
+}
+
+.messageLeft {
+	float: left;
+	text-align: left;
+}
+
+.textName {
+	font-weight: bold;
+	color: darkblue
+}
+
+.sendDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 15px;
+}
+
+.signOutDiv {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 5px;
+}
+
+.signOutButton {
+	width: 100%;
+}
+
+@media only screen and (orientation: landscape) {
+	.home-div {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	.logo {
+		align-self: flex-start;
+		width: 35%;
+	}
+	.homeButtonsDiv {
+		display: flex;
+		flex-direction: column;
+		width: 85%;
+	}
+	#locationBodyDiv {
+		height: 98%;
+	}
+	.locationDiv {
+		height: 100%;
+		width: 98%;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.mapHeader {
+		width: 48%;
+	}
+	.locNameSpan {
+		align-self: flex-start;
+		width: 100%;
+		order: 0;
+		text-align: center;
+	}
+	.locAddressSpan {
+		align-self: center;
+		order: 1;
+		width: 50%;
+		word-wrap: normal;
+	}
+	.stadPicDiv {
+		width: 48%;
+		height: 85%;
+		order: -1;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.stadPic {
+		width: 100%;
+		height: 95%;
+		border: solid 1px black;
+		align-self: flex-end;
+		display: block;
+	}
+	.iframeDiv {
+		width: 48%;
+		height: 90%;
+		margin-bottom: 0;
+		margin-right: 20px;
+		padding-bottom: 0;
+		order: -2;
+		display: flex;
+	}
+	.iframe {
+		height: 90%;
+		margin: 0;
+	}
+	.nextGamesDiv {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.matchDiv {
+		width: 45%;
+		font-size: 14px;
+	}
+	.picListDiv {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+	.picHeader {
+		width: 40%;
+		margin: 10px;
+	}
+	.picDiv {
+		display: flex;
+		margin-bottom: 10px;
+	}
+	.pic {
+		align-self: center;
+		border: solid 1px black;
+		width: 280px;
+		height: 180px;
+	}
+	.signInHeader {
+		width: 40%;
+		height: 40%;
+		order: -1;
+	}
+	.googleDiv {
+		width: 45%;
+		order: 0;
+		justify-content: flex-start
+	}
+	.chatLoginDiv {
+		display: flex;
+		width: 98%;
+		height: 100%;
+		flex-flow: column wrap;
+		padding: 0px 30px;
+	}
+	.chatImageDiv {
+		width: 50%;
+		height: 70%;
+		order: 1;
+	}
+	.chatImage {
+		width: 100%;
+	}
+	.chatBody {
+		width: 100%;
+	}
+	.chatDiv {
+		padding-bottom: 60px;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+	.home-img,
+	.stad-img,
+	.chat-img {
+		width: 60px;
+		margin: 0px 3px;
+		align-items: center;
+	}
+	.footer {
+		height: 80px;
+		display: flex;
+		flex-direction: row;
+	}
+	.googleDiv {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-self: center;
+	}
+
+	.googleSignInP {
+		align-self: center;
+		font-weight: bold;
+		font-size: 30px
+	}
+
+	.googleButton {
+		background-color: #D14836;
+		border: 1px solid #999;
+		border-radius: 4px;
+		width: 50%;
+		padding: 10px;
+		margin: 10px 5px;
+		color: white;
+		font-size: 20px;
+		font-weight: bold;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	.matchDiv {
+		width: 45%;
+		margin: 30px 10px;
+	}
+	.nextGamesDiv {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	.matchDiv {
+		width: 31%;
+		margin: 30px 10px;
+	}
+	.nextGamesDiv {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.chatDiv {
+		padding-bottom: 20px;
+	}
+	#locationListDiv {
+		padding-bottom: 70px;
+	}
+	.picHeader {
+		width: 27%;
+		margin-bottom: 40px;
+	}
+	.pic {
+		align-self: center;
+		border: solid 1px black;
+		width: 280px;
+		height: 180px;
+	}
+	#locationBodyDiv {
+		height: 92%;
+	}
+	.iframeDiv {
+		height: 85%;
+		margin-bottom: 75px;
+	}
+	.stadPicDiv {
+		height: 85%
+	}
+	.iframe {
+		height: 100%;
+	}
+	.stadPic {
+		height: 100%;
+	}
+}
+
+
+.hideMe {
+	display: none;
+}

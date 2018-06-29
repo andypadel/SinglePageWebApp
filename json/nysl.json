@@ -1,0 +1,248 @@
+	{
+		"teams": [
+			{
+				"name": "Riverdale Ravens",
+				"manager": "Jose Mourinho",
+				"players": ["mike",
+					"josh",
+					"tim",
+					"henry",
+					"gary",
+					"paul"]
+		},
+			{
+				"name": "Englewood Eagles",
+				"manager": "Pep Guardiola",
+				"players": [
+
+					"lionel",
+					"luis",
+					"ter",
+					"sergio",
+					"gerard",
+					"jordi"
+
+		]
+},
+			{
+				"name": "South Chicago FC",
+				"manager": "Rafa Benitez",
+				"players": [
+
+						"steven",
+						"xabi",
+						"daniel",
+						"pepe",
+						"fernando",
+						"javier"
+
+		]
+		},
+			{
+				"name": "Austin Magic",
+				"manager": "Carlo Ancelotti",
+				"players": [
+
+						"zinedine",
+						"david",
+						"thomas",
+						"iker",
+						"roberto",
+						"michael"
+
+		]
+		},
+			{
+				"name": "O'Hare Otters",
+				"manager": "Frank Rijkaard",
+				"players": [
+
+						"rivaldo",
+						"ronaldinho",
+						"samuel",
+						"xavi",
+						"victor",
+						"carlos"
+
+		]
+		},
+			{
+				"name": "Bridgeport Brownbears",
+				"manager": "Ronald Koeman",
+				"players": [
+
+						"tom",
+						"harry",
+						"tim",
+						"mike",
+						"ralph",
+						"jerry"]
+		}
+	],
+
+		"stadiums": [
+			{
+				"name": "AJ Katzenmaier Elementary",
+				"address": "24 W. Walton St., Chicago, IL 60610",
+				"maps_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11878.616854248647!2d-87.63780979662214!3d41.90029307911844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34e07f6bac3%3A0x68a82e5d59952c86!2s24+W+Walton+St%2C+Chicago%2C+IL+60610%2C+USA!5e0!3m2!1sen!2ses!4v1519139257369",
+				"picture": "https://goalwa.files.wordpress.com/2013/12/ferndale-1.jpg"
+			},
+			{
+				"name": "Greenbay Elementary",
+				"address": "1734 N. Orleans St., Chicago, IL 60614",
+				"maps_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5938.051657105639!2d-87.64222273170955!3d41.91380347911742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd34073f306a3%3A0x9e1726bbf8f23f0e!2s1734+N+Orleans+St%2C+Chicago%2C+IL+60614%2C+USA!5e0!3m2!1sen!2ses!4v1519139557491",
+				"picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kashima_Stadium_1.JPG/1920px-Kashima_Stadium_1.JPG"
+			},
+			{
+				"name": "Howard A Yeager Elementary",
+				"address": "2245 N. Southport Ave., Chicago, IL 60614",
+				"maps_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.5856830903667!2d-87.66511994925324!3d41.923264579116584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd2e37f9b8d2d%3A0x62ad8b907dd755d6!2s2245+N+Southport+Ave%2C+Chicago%2C+IL+60614%2C+USA!5e0!3m2!1sen!2ses!4v1519139684574",
+				"picture": "https://www.twincities.com/wp-content/uploads/2017/07/dfltwazuiaaazg2-e1500991195709.jpg?w=1020"
+				},
+			{
+
+				"name": "Marjorie P Hart Elementary",
+				"address": "2625 N. Orchard St., Chicago, IL 60614",
+				"maps_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.2918216000135!2d-87.64809034925301!3d41.92958027911612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd30f2630e551%3A0x3e719e44a5cef714!2s2625+N+Orchard+St%2C+Chicago%2C+IL+60614%2C+USA!5e0!3m2!1sen!2ses!4v1519139743698",
+				"picture": "https://i.ytimg.com/vi/jajWmLRLlAE/hqdefault.jpg"
+			},
+			{
+				"name": "North Elementary",
+				"address": "1409 N. Ogden Ave., Chicago, IL 60610",
+				"maps_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.3364882363317!2d-87.64836124925381!3d41.90712467911785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd33af13a8945%3A0xb6ad1ec2b6f379ba!2s1409+N+Ogden+Ave%2C+Chicago%2C+IL+60610%2C+USA!5e0!3m2!1sen!2ses!4v1519139817308",
+				"picture": "http://www.thefootballstadiums.com/uploads/data/other/4718_Vizualizace%20Mani%20Stand%20-%20Anfield%2003.jpg"
+			},
+			{
+				"name": "South Elementary",
+				"address": "2101 N. Fremont St., Chicago, IL 60614",
+				"maps_url": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2968.7480203138903!2d-87.65356324925338!3d41.919775279116905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880fd3196fb41dc7%3A0x970be7f7d6336df5!2s2101+N+Fremont+St%2C+Chicago%2C+IL+60614%2C+USA!5e0!3m2!1sen!2ses!4v1519139867401",
+				"picture": "http://www.stadiumguide.com/wp-content/gallery/sansiro/sansiro6.jpg"
+			}
+	],
+
+		"fixtures": {
+			"september": [
+				{
+					"home-team": "Riverdale Ravens",
+					"away-team": "Englewood Eagles",
+					"date": "09/01",
+					"time": "12:00",
+					"location": "AJ Katzenmaier Elementary"
+		},
+				{
+					"home-team": "South Chicago FC",
+					"away-team": "Austin Magic",
+					"date": "09/01",
+					"time": "14:00",
+					"location": "Greenbay Elementary"
+		},
+				{
+					"home-team": "O'Hare Otters",
+					"away-team": "Bridgeport Brownbears",
+					"date": "09/08",
+					"time": "12:00",
+					"location": "Howard A Yeager Elementary"
+		},
+				{
+					"home-team": "Wicker Warriors",
+					"away-team": "Logan Lizards",
+					"date": "09/08",
+					"time": "14:00",
+					"location": "South Elementary"
+		},
+				{
+					"home-team": "Riverdale Ravens",
+					"away-team": "South Chicago FC",
+					"date": "09/15",
+					"time": "12:00",
+					"location": "Marjorie P Hart Elementary"
+		},
+				{
+					"home-team": "Englewood Eagles",
+					"away-team": "Austin Magic",
+					"date": "09/15",
+					"time": "14:00",
+					"location": "North Elementary"
+		},
+				{
+					"home-team": "Wicker Warriors",
+					"away-team": "Riverdale Ravens",
+					"date": "09/22",
+					"time": "12:00",
+					"location": "AJ Katzenmaier Elementary"
+		},
+				{
+					"home-team": "Logan Lizards",
+					"away-team": "Bridgeport Brownbears",
+					"date": "09/22",
+					"time": "14:00",
+					"location": "Greenbay Elementary"
+		},
+				{
+					"home-team": "O'Hare Otters",
+					"away-team": "Austin Magic",
+					"date": "09/29",
+					"time": "14:00",
+					"location": "Howard A Yeager Elementary"
+		}
+		],
+			"october": [
+				{
+					"home-team": "Riverdale Ravens",
+					"away-team": "Englewood Eagles",
+					"date": "10/06",
+					"time": "12:00",
+					"location": "AJ Katzenmaier Elementary"
+		},
+				{
+					"home-team": "South Chicago FC",
+					"away-team": "Austin Magic",
+					"date": "10/06",
+					"time": "14:00",
+					"location": "Greenbay Elementary"
+		},
+				{
+					"home-team": "O'Hare Otters",
+					"away-team": "Bridgeport Brownbears",
+					"date": "10/13",
+					"time": "12:00",
+					"location": "Howard A Yeager Elementary"
+		},
+				{
+					"home-team": "Wicker Warriors",
+					"away-team": "Logan Lizards",
+					"date": "10/13",
+					"time": "14:00",
+					"location": "South Elementary"
+		},
+				{
+					"home-team": "Riverdale Ravens",
+					"away-team": "South Chicago FC",
+					"date": "10/20",
+					"time": "12:00",
+					"location": "Marjorie P Hart Elementary"
+		},
+				{
+					"home-team": "Englewood Eagles",
+					"away-team": "Austin Magic",
+					"date": "10/20",
+					"time": "14:00",
+					"location": "North Elementary"
+		},
+				{
+					"home-team": "Wicker Warriors",
+					"away-team": "Riverdale Ravens",
+					"date": "10/27",
+					"time": "12:00",
+					"location": "AJ Katzenmaier Elementary"
+		},
+				{
+					"home-team": "Logan Lizards",
+					"away-team": "Bridgeport Brownbears",
+					"date": "10/27",
+					"time": "14:00",
+					"location": "Greenbay Elementary"
+		}
+				]
+		}
+	}

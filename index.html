@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<title>Northside Youth Soccer League</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="apple-touch-startup-image" href="assets/salah.png">
+	<link rel="apple-touch-icon" sizes="128x128" href="assets/nysl_logo.png">
+	<link rel="stylesheet" href="styles/main.css">
+
+</head>
+
+<body>
+
+	<header id="header">
+		<div id="back-div" class="back-div"><img src="assets/nysl_logo.png" class="smallNYSLicon"></div>
+		<div class="head-title-div" id="head-title-div">Next Games</div>
+		<div class="home-button-div" id="home-button-div"><img src="assets/nysl_logo.png" class="smallNYSLicon"></div>
+	</header>
+
+<!--DIVS-->
+	<div id="next-games-div" data-className = "next-games-div" data-title="Next Games"></div>
+	<div id="locationBodyDiv" class="hideMe" data-className = "locationBodyDiv" data-title="Location Info"></div>
+	
+	<div id="locationListDiv" class="locationListDiv hideMe" data-className = "locationListDiv" data-title="Stadiums">
+		<div class="instructionsDiv">Click on the stadium name or image for more info</div>
+		
+		<div class="picListDiv">
+			<div v-for="stadium in stadiums" class="picHeader">
+				<div class="locNameDiv" v-bind:data-stadname="stadium.name" data-className="locationBodyDiv" onclick="buttonClick2(this), createLocation2(this)">{{ stadium.name }}</div>
+				<div class="picDiv locationListElement" v-bind:data-stadname="stadium.name" data-className="locationBodyDiv" onclick="buttonClick2(this), createLocation2(this)">
+					<img class="pic" v-bind:src="stadium.picture">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="chatBody" class="chatBody hideMe" data-className = "chatBody" data-title="Chat"></div>
+	<div id="vue-div"></div>
+	
+	<footer class="footer">
+		<div class="home-button-div" id="home-button-div"><img class="home-img" id="home-img" src="assets/home.png" data-className = "next-games-div"></div>
+		<div class="footer-chat-div" id="footer-chat-div"><img class="chat-img" id="chat-img" src="assets/chat-icon.png" data-className = "chatBody"></div>
+		<div class="footer-stads-div"><img class="stad-img" id="stad-img" src="assets/stadium-icon.png" data-className = "locationListDiv"></div>
+	</footer>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
+	<script>
+		// Initialize Firebase
+		var config = {
+			apiKey: "AIzaSyDeC5kofXTOacSlkS9UuQDXRD4dlFbx1tY",
+			authDomain: "nysl-app-95e8c.firebaseapp.com",
+			databaseURL: "https://nysl-app-95e8c.firebaseio.com",
+			projectId: "nysl-app-95e8c",
+			storageBucket: "nysl-app-95e8c.appspot.com",
+			messagingSenderId: "395285185141"
+		};
+		firebase.initializeApp(config);
+	</script>
+	<script src="https://unpkg.com/vue"></script>
+	<script src="js/main-app.js"></script>
+</body>
+
+</html>
+
+
+<!--BACK BUTTON
+<img class="back-img" src="https://image.flaticon.com/icons/svg/0/340.svg">-->
+
+
+<!--EMAIL LOGIN
+		<div class="loginFormDiv form-group">
+			<div class="emailDiv">
+				<input type="email" class="form-control" name="email" placeholder="Email address">
+			</div>
+			<div class="passwordDiv form-group">
+				<input type="password" class="form-control" name="password" placeholder="Password">
+			</div>
+		</div>
+-->
